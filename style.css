@@ -1,0 +1,83 @@
+.all{
+    height: 100vh;
+    
+    
+}
+.bg-light{
+    background-color: transparent !important;
+}
+nav{
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: -0.08em;
+}
+h1{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+}
+.main{
+    height: 100vh;
+    
+}
+p{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color:#4F4F4F;
+    width: 381px;
+}
+button{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    width: 216px;
+    height: 68px;
+    border: none;
+    color: white;
+    background-color: #333333;
+}
+
+footer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+}
+footer a{
+    text-decoration: none;
+    color: #BDBDBD !important !important;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+    }
+    p{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+        width: 328px;
+    }
+  }
